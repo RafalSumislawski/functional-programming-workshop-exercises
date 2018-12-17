@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" monitorInterval="30" shutdownHook="disable" strict="true" name="DefaultMepsLog4j2Config"
+        packages="org.apache.logging.log4j.test">
+    <Appenders>
+        <Console name="console">
+            <PatternLayout
+                    pattern="[%date][%-5level][%logger{1.}] - %msg%n%throwable"/>
+        </Console>
+        <Console name="console-banner">
+            <PatternLayout pattern="%style{%msg}{Cyan}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="console"/>
+        </Root>
+    </Loggers>
+</Configuration>
