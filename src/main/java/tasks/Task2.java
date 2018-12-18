@@ -1,8 +1,8 @@
-package referentialtransparency;
+package tasks;
 
 import static out.Print.println;
 
-public class Example2 {
+public class Task2 {
 
     public static void main(String[] args) {
         v2();
@@ -17,8 +17,7 @@ public class Example2 {
     }
 
     static char nextLetter(char in) {
-        in += 1;
-        return in;
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     static void v2() {
@@ -30,7 +29,6 @@ public class Example2 {
     }
 
     static char[] nextLetter(char[] in) {
-        in[0] += 1;
-        return in;
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 }
