@@ -5,7 +5,12 @@ import static out.Print.*;
 public class Example1 {
 
     public static void main(String[] args) {
+        println("rt1");
+        rt1();
+        println("rt2");
         rt2();
+        println("rt3");
+        rt3();
     }
 
     static void rt1() {
